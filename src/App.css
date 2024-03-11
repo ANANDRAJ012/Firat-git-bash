@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+
+}
+nav {
+  position: sticky;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(30, 30, 227);
+  padding: 18px 0px; /* Adjusted padding to avoid duplication */
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+   
+.container{
+  background-color: rgb(246, 241, 229);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 2vmax 6vmax;
+  box-sizing: border-box;
+}
+.container >h1{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 2.5rem;
+}
+.container >form{
+  display: flex;
+  flex-direction: column;
+}
+input, textarea, button{
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,0.214);
+  border-radius: 5px;
+  margin: 10px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(37,37,37);
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+}
+.task{
+  display: flex;
+  align-items: center;
+ margin: 20px;
+  display: flex;
+  background-color: rgb(255, 254, 253);
+  padding: 10px;
+  border-radius: 5px;
+}
+.task span {
+  color: rgb(111, 109, 109);
+}
+.task >div{
+  width: 100%;
+}
+.task  button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1.8rem;
+}
+.task  button:hover{
+  background-color: red;
+}
+.headerelement{
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+.headerelement a{
+  font-size: 23px;
+  text-decoration: none;
+  margin: 15px;
+ padding: 85px;
+ text-decoration: none;
+
+}
+.About{
+  background-color: rgb(82, 209, 139);
+  text-align: center;
+  height: 82vh;
+  width: 100vw;
+  font-size: 55px;
+  font-weight: 600;
+
+}
+.Contact{
+  background-color: rgb(250, 49, 49);
+  text-align: center; 
+  height: 82vh;
+  width: 100vw;
+  font-size: 55px;
+  font-weight: 600;
+
+}
+
+.footer{
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+/* *{
+  border: 1px solid red;
+} */
